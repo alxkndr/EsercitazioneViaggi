@@ -15,11 +15,11 @@ public class ViaggiVolo extends Viaggi{
     }
     public void prezzoFinale(){
         if (isAndataRitorno){
-            int prezzoModificato = getPrezzo() + (getPrezzo()/100)*85;
+            double prezzoModificato = getPrezzo() + (getPrezzo()/100)*85;
             setPrezzo(prezzoModificato);
         }
         else {
-            int prezzoModificato = getPrezzo() + (getPrezzo()/100)*50;
+            double prezzoModificato = getPrezzo() + (getPrezzo()/100)*50;
             setPrezzo(prezzoModificato);
         }
     }

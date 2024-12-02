@@ -15,11 +15,11 @@ public class ViaggiPasti extends Viaggi {
     }
     public void prezzoFinale(){
         if (isPensioneCompleta){
-            int prezzoModificato = getPrezzo() + (35*getGiorni());
+            double prezzoModificato = getPrezzo() + (35*getGiorni());
             setPrezzo(prezzoModificato);
         }
         else {
-            int prezzoModificato = getPrezzo() + (25*getGiorni());
+            double prezzoModificato = getPrezzo() + (25*getGiorni());
             setPrezzo(prezzoModificato);
         }
     }

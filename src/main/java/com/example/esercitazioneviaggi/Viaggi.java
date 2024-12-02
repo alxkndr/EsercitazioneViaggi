@@ -3,10 +3,10 @@ package com.example.esercitazioneviaggi;
 public class Viaggi {
     private String destinazioni;
     private int giorni;
-    private int prezzo;
+    private double prezzo;
     private int prezzoBase;
 
-    public Viaggi(String destinazioni, int giorni, int prezzo){
+    public Viaggi(String destinazioni, int giorni, double prezzo){
         this.destinazioni= destinazioni;
         this.giorni= giorni;
         this.prezzo = prezzo;
@@ -19,7 +19,7 @@ public class Viaggi {
     public void setGiorni(int giorni){
         this.giorni = giorni;
     }
-    public void setPrezzo(int prezzo){
+    public void setPrezzo(double prezzo){
         this.prezzo = prezzo;
     }
 
@@ -29,11 +29,10 @@ public class Viaggi {
     public int getGiorni(){
         return giorni;
     }
-    public int getPrezzo(){
+    public double getPrezzo(){
         return prezzo;
     }
     public int getPrezzoBase(){
         return prezzoBase;
     }
-
 }
