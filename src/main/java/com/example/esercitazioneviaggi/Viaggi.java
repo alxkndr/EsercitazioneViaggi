@@ -1,6 +1,6 @@
 package com.example.esercitazioneviaggi;
 
-public class Viaggi {
+public abstract class Viaggi {
     private String destinazioni;
     private int giorni;
     private double prezzo;
